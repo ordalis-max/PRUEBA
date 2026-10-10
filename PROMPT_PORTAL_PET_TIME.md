@@ -2,7 +2,7 @@ Actúa como desarrollador full-stack senior. Necesito que construyas desde cero 
 
 ## Forma de trabajo (Claude Code)
 - Trabaja dentro de este repositorio. Este archivo es la especificación oficial del proyecto: si algo no está claro, pregúntame antes de suponer.
-- Referencia visual aprobada: `docs/Propuesta_Portal_Colaboradores_PET_TIME_v1.0.pdf` (colores, tipografía, estructura de pantallas). Los módulos nuevos (cese, justificaciones, solicitudes, adelantos, amonestaciones) siguen el mismo estilo.
+- Referencia visual aprobada: `docs/Propuesta_Portal_Colaboradores_PET_TIME_v1.1.pdf` (colores, tipografía y estructura de las 21 pantallas, incluidas cese, justificaciones, solicitudes, firma de adelanto y amonestaciones).
 - Construye por etapas (ver el final). Al terminar cada etapa: ejecuta las pruebas, haz commit con un mensaje claro, haz push y detente para mostrarme el avance. No pases a la siguiente etapa sin mi confirmación.
 - Las mejoras de la sección 8 llevan entre corchetes la etapa en la que se integran (ej. [E1]).
 - Registra las decisiones importantes (stack, librerías, cambios al modelo de datos) en `docs/DECISIONES.md`.
