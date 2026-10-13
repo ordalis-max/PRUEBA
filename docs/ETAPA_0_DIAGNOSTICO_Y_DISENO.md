@@ -1,6 +1,15 @@
 # Plataforma PET TIME — Etapa 0: diagnóstico y diseño
 
-**Versión 0.1 · 13/10/2026 · Estado: PROPUESTA, pendiente de confirmación de la Dirección**
+**Versión 0.2 · 13/10/2026 · Estado: APROBADA con los ajustes de abajo. Etapa 1 construida en `ordalis-max/pettime-app`, rama `claude/pettime-erp-rrhh-platform-r87wvk`.**
+
+> **Decisiones confirmadas por la Dirección (13/10/2026)**
+> - Se trabaja en `ordalis-max/pettime-app` (app desplegada en Vercel).
+> - **Una sola contabilidad (consorcio PET TIME):** las 4 empresas no separan estados financieros; identifican al titular de cada cuenta bancaria. Esto reemplaza lo dicho abajo sobre periodos, asientos y balance "por empresa" e intercompañía.
+> - Ejercicio del 01/01 al 31/12 con **cierres mensuales**; un mes cerrado no admite registros.
+> - **Marketing** y **Activaciones** son centros de costo propios; **Gerencia, Logística, Operaciones y Recursos Humanos** forman **Corporativo** (como áreas).
+> - Correo de notificaciones: cuenta de **Microsoft 365** de la Dirección (envío por Microsoft Graph; se configura en las etapas de RR. HH.).
+> - Se mantienen los **usuarios personalizados** (usuario libre o N.° de documento) con varios roles. El doble factor y el dato de verificación del primer ingreso se verán más adelante.
+> - Detalle de lo construido y de las decisiones técnicas: `docs/DECISIONES.md` en `pettime-app`.
 
 Este documento responde al paso 0 de la especificación: diagnóstico de la app actual, modelo de base de datos único, mapa de pantallas, menú unificado, plan de migración de los datos existentes y preguntas pendientes. **No se ha escrito código todavía.**
 
